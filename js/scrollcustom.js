@@ -1,7 +1,4 @@
 
-
-  
-  
 $(document).ready(function(e){
     var scrollLink = $('.scroll');
 
