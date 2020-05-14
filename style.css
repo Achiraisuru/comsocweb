@@ -1,0 +1,628 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+
+
+.headings{
+	font-family: 'Quicksand', sans-serif;
+	font-size:2.7rem;
+	color: #003399;		
+}
+
+#top{
+ 
+padding-bottom:90px;
+}
+
+#about_us{
+	padding-top:80px;
+  padding-bottom: 80px;
+}
+
+#gallery{
+	padding-top:90px;
+  padding-bottom: 90px;
+}
+
+#Ourteam{
+	padding-top:50px;
+	padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+.resi{
+	color: black;
+}
+
+.resi:hover {
+	color:red;
+}
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+#navi_bar{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	background-color:#fff568 !important;
+
+}
+
+.main_img_holder{
+	position: relative;
+}
+.post-content {
+    top:109px;
+    left:150px;
+    position: absolute;
+}
+
+.wlc{
+	font-family: 'Quicksand', sans-serif;
+	font-size:2.7vw;
+	
+}
+
+.cs{
+	font-family: 'Quicksand', sans-serif;
+	font-size:3vw;
+	color: #003399;
+}
+
+.uwu{
+	font-family: 'Quicksand', sans-serif;
+	font-size:2.7vw;
+}
+
+
+
+
+
+
+
+
+/*about us section styling*/
+
+
+.txtabout{
+padding:50px 0px 0px 0px;
+font-family: 'Quicksand', sans-serif;
+font-size:1.4rem;
+
+}
+
+.abutus_img{
+	float: left;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	margin-right:30px; 
+}
+
+
+
+
+
+
+
+
+/*events sectio styling*/
+
+
+ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
+ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.filters > li > a{
+    display: block;
+    color: #581845 ;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Quicksand', sans-serif;
+	font-size:1.3rem;
+	border-radius: 20px;
+	font-weight: bold;
+
+
+}
+
+ul.filters > li > a:hover{
+    background-color:  #fff568 ;
+}
+
+ul.filters > li.active > a{
+    color:black;
+    background-color: #fff568 ;
+}
+
+
+.gallerys a{
+	overflow: hidden;
+	display: block;
+
+}
+
+.gallerys a img{
+	transform: scale(1,1);
+	transition: all 500ms ease;
+	
+}
+
+
+.gallerys a img:hover{
+	transform: scale(1.1,1.1);
+}
+
+
+ 
+.js .toggle-box .content { display:none; }
+.toggle-box { border:2px solid #fff568; }
+.toggle { cursor:pointer; }
+.header { margin:0; padding:23px; background:#fff568;
+font-family:'Quicksand', sans-serif; }
+.content { padding:5px }
+.ggh{padding-bottom: 20px;}
+
+
+
+.hhh:hover{
+  text-decoration: none;
+}
+
+.tb2{
+  margin-top:50px;
+}
+
+
+
+
+
+/*
+team section styiling*/
+
+
+
+.img_team{
+	width: 200px;
+	height: 200px;
+	border:10px solid #fff568;
+
+	
+}
+
+.row_2{
+	margin-top:40px;
+}
+
+.row_3{
+	margin-top:40px;
+
+}
+
+.row_4{
+	margin-top:40px;
+	padding-bottom: 50px;
+}
+
+
+
+.team-section {
+	margin-top: 50px;
+}
+
+.exe_txt{
+	font-family: 'Quicksand', sans-serif;
+	font-size:1.4rem;
+	font-weight: bold;
+}
+
+/*.ourte{
+	background-image: url('team.jpg');
+	background-size:cover;
+	  max-width: 100%;
+  height: auto;
+	}*/
+
+.exem{
+	font-family: 'Quicksand', sans-serif;
+	color: #003399;
+}
+
+.exp{
+	font-family: 'Quicksand', sans-serif;
+		
+}
+
+
+
+
+/* Buzz Out */
+@-webkit-keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+@keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+.hvr-buzz-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
+  -webkit-animation-name: hvr-buzz-out;
+  animation-name: hvr-buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+.resit{
+	color: black;
+}
+
+.resit:hover {
+	color:#FF5500;
+}
+
+
+
+
+
+
+
+
+/*contact form section styling*/
+
+.contact{
+  padding-top: 40px;
+  padding-bottom:50px;
+  
+}
+
+.form-group{
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.br{
+  border-radius: 20px;
+}
+
+label{
+  font-family: 'Quicksand', sans-serif;
+  color: #fff568;
+}
+
+.btnsub{
+  font-family: 'Quicksand', sans-serif;
+  background-color:#fff568;
+  border-radius: 20px; 
+  padding-right: 23px;
+  padding-left: 23px;
+  font-weight: bold;
+  float: right;
+}
+
+
+.llico{
+  padding-top:50px;
+}
+
+
+.cntctuwu{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size:1.4rem;
+}
+
+
+
+.ci{
+  color: #fff568;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:769px){
+.post-content {
+   top:65px;
+   left:65px;
+   position: absolute;
+
+}
+.abutus_img{
+margin-left:47px;
+padding-bottom:20px;
+ }
+
+
+.wlc{
+	font-size:2.6rem;	
+}
+
+.cs{
+	font-size:2rem;
+}
+
+.uwu{
+	font-size:1.6rem;
+}
+}
+
+
+
+
+@media (max-width:361px){
+.post-content {
+   top:30px;
+   left:20px;
+   position: absolute;
+}
+
+#cmsc{
+	width:30px;
+	height: 30px;
+}
+
+#uwulg{
+	width:42px;
+	height: 34px;
+}
+
+.resi{
+	font-size: 1rem;
+}
+
+
+.abutus_img{
+margin-left:2px;
+padding-bottom:20px;
+ }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:415px){
+.post-content {
+   margin-top:auto;
+   margin-left:auto;
+   display: block;
+   position: absolute;
+}
+
+.main_img_holder{
+	background-image: url('images/backgroundimg.jpg');
+	height:50vh;
+}
+
+.cvrimg{
+	display: none;
+}
+
+.wlc{
+	font-size:2.6rem;	
+}
+
+.cs{	
+	font-size:2rem;	
+}
+
+.uwu{
+	font-size:2.6rem;
+}
+
+#cmsc{
+	width:50px;
+	height: 50px;
+}
+
+#uwulg{
+	width:52px;
+	height: 44px;
+}
+
+.resi{
+	font-size: 2rem;
+}
+
+.abutus_img{
+margin-left:0px;
+padding-bottom:20px;
+ }
+}
